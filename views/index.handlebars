@@ -47,9 +47,11 @@
 						<h4>{{title}}</h4>
 					</a>
 					<div class="likeCtr">
-
+						{{#if ../viewAlt}}
 						<button class="btn btn-default likeBtn" onclick="googleAnalytics()">Like</button>
-
+						{{else}}
+						<p> wtf </p>
+						{{/if}}
 					</div>
 					<div class="details"></div>
 				</div>
