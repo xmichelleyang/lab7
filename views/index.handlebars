@@ -57,9 +57,7 @@
 		{{/each}}
 		<script>
 			function googleAnalytics(){
-				gtag('event', 'click', {
-				      event_category: 'like'
-				});	
+				ga("send", "event", 'like', 'click');
 			}
 		</script>
 
